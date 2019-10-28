@@ -64,8 +64,8 @@ class Cart extends Component {
                 {items.length ?
                     (<div className="checkout">
                         <h3>Sub Total:  £ {this.props.total.toFixed(2)}</h3>
-                        <h3>Discount:  £ {this.props.total.toFixed(2)}</h3>
-                        <h2>Total:  £ {this.props.total.toFixed(2)}</h2>
+                        <h3>Discount:  £ {this.props.discount.toFixed(2)}</h3>
+                        <h2>Total:  £ {(this.props.total - this.props.discount).toFixed(2)}</h2>
                         <button onClick={() => { this.handleCheckoutClick() }}>CHECK OUT</button>
 
                         {this.state.checkout ? 
@@ -86,6 +86,7 @@ const mapStateToProps = (state) => {
     return {
         items: state.addedItems,
         total: state.total,
+        discount: state.discount,
         loading: state.loading,
         error: state.error
     }

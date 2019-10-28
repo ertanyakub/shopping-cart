@@ -5,12 +5,9 @@ import { createStore, applyMiddleware } from 'redux'
 import thunk from "redux-thunk"
 import App from './layout/App'
 import cartReducer from './reducers'
-import * as serviceWorker from "./serviceWorker"
 
 import './index.css'
 
 const store = createStore(cartReducer, applyMiddleware(thunk));
 
 ReactDOM.render(<Provider store={store}><App /></Provider>, document.getElementById('root'));
-
-serviceWorker.unregister();

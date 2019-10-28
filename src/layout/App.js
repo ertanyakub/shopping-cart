@@ -11,10 +11,13 @@ class App extends Component {
   }
   render() {
     return (
-      <div className="container">
-        <Products />
-        <Cart />
-      </div>
+      <>
+        <h1 className="name">React - Redux Shopping Cart</h1>
+        <div className="container">
+          <Products />
+          <Cart />
+        </div>
+      </>
     )
   }
 }
@@ -22,4 +25,4 @@ class App extends Component {
 const mapDispatchToProps = dispatch => bindActionCreators({
   fetchProducts
 }, dispatch)
-export default connect( mapDispatchToProps)(App);
+export default connect(mapDispatchToProps)(App);

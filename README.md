@@ -1,4 +1,4 @@
-# React - Redux Shhoping Cart
+# React - Redux Shopping Cart
 Shopping cart assessment functional test
 
 ## Steps
@@ -6,7 +6,7 @@ Shopping cart assessment functional test
 - [x] Create React App
 - [x] Create Components and Layout
 - [x] Use Redux state management
-- [ ] Create Functional Test
+- [x] Create Functional Test (still in progress)
 - [x] Create E2E Test
 
 ## Test URL
