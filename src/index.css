@@ -292,20 +292,28 @@ body {
 }
 
 @media only screen and (max-width: 790px) {
-.container {
-    flex-direction: column;
-}
-
-.checkout {
-    position: relative;
-    padding: 20px;
-    width: calc(100%);
-    box-shadow: none;
-    box-sizing: border-box;
-}
-
-.product {
-    flex: 1 1 150px;
-    margin: 8px;
+    .container {
+        flex-direction: column;
+    }
+    .checkout {
+        position: relative;
+        padding: 20px;
+        width: calc(100%);
+        box-shadow: none;
+        box-sizing: border-box;
+    }
+    .product {
+        flex: 1 1 150px;
+        margin: 8px;
+    }
+    .name {
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .added {
+        position: fixed;
+        width: 100%;
+        left: 0;
+        margin-left: 0;
 }
 }

@@ -6,7 +6,7 @@ Shopping cart assessment functional test
 - [x] Create React App
 - [x] Create Components and Layout
 - [x] Use Redux state management
-- [x] Create Functional Test (still in progress)
+- [x] Create Unit/Functional Test
 - [x] Create E2E Test
 
 ## Test URL
