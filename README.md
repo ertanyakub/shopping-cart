@@ -17,6 +17,3 @@ Shopping cart assessment functional test
 ```
 node_modules/.bin/cypress open
 ```
-
-## Deployment
-[![Netlify Status](https://api.netlify.com/api/v1/badges/29bf328a-fffd-422a-b1db-5e6a9d683e8a/deploy-status)](https://app.netlify.com/sites/shop20/deploys)
