@@ -4,14 +4,15 @@
   "private": true,
   "dependencies": {
     "cypress": "^3.5.0",
-    "enzyme-adapter-react-16": "^1.15.1",
+    "eslint-config-react-app": "^5.0.2",
+    "eslint-plugin-flowtype": "^4.3.0",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.16.0",
+    "jsdom": "^15.2.0",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-redux": "^6.0.0",
     "react-scripts": "2.1.1",
-    "react-test-renderer": "^16.11.0",
     "redux": "^4.0.1",
     "redux-thunk": "^2.3.0"
   },
@@ -32,6 +33,7 @@
   ],
   "devDependencies": {
     "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.15.1",
     "eslint-plugin-import": "^2.18.2"
   }
 }
