@@ -3,11 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-<<<<<<< HEAD
     "cypress": "^3.0.0",
-=======
-    "cypress": "^3.5.0",
->>>>>>> dd0caa1cc6c3bf907d1891227ef6a8732113f93d
     "eslint-config-react-app": "^5.0.2",
     "eslint-plugin-flowtype": "^4.3.0",
     "eslint-plugin-jsx-a11y": "^6.2.3",
