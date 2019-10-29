@@ -303,4 +303,9 @@ body {
     box-shadow: none;
     box-sizing: border-box;
 }
+
+.product {
+    flex: 1 1 150px;
+    margin: 8px;
+}
 }
