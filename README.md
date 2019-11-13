@@ -1,5 +1,5 @@
 # React - Redux Shopping Cart
-Shopping cart assessment functional test
+Shopping cart with functional and E2E test
 
 ## Steps
 
